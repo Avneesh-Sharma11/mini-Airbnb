@@ -58,7 +58,7 @@
                     <li>
                         <%= review.Comment %> - <%=review.rating%>⭐
                                 <form method="post"
-                                    action="/listings/<%= user._id %>/<%= review._id %>/delete?_method=DELETE">
+                                    action="/listings/<%= user._id %>/reviews/<%= review._id %>/delete?_method=DELETE">
                                     <button>Delete</button>
                                 </form>
                     </li>
