@@ -1,7 +1,7 @@
-# Mini Airbnb
+# WonderStay
 
 ## 📌 Description
-Mini Airbnb is a web application where users can create and manage property listings.  
+WonderStay is a web application where users can create and manage property listings.  
 Users can add a listing with a **title, price, location, country, and image**.  
 
 The project uses **MongoDB Atlas** for database storage and **Cloudinary** for image uploads and management.  
@@ -68,14 +68,14 @@ ATLASDB_URL=your_mongodb_connection_string
 
 Example:
 ```env
-ATLASDB_URL=mongodb+srv://username:password@cluster.mongodb.net/miniAirbnb
+ATLASDB_URL=mongodb+srv://username:password@cluster.mongodb.net/wonderstay
 ```
 
 ---
 
 ## 📂 Folder Structure
 ```bash
-mini-airbnb
+wonderstay
 │
 ├── init
 ├── models
@@ -100,7 +100,7 @@ mini-airbnb
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/Avneesh-Sharma11/mini-Airbnb.git
-cd mini-Airbnb
+cd wonderstay
 ```
 
 ### 2️⃣ Install Dependencies
